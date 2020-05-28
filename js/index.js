@@ -44,9 +44,6 @@ window.addEventListener("scroll", function myScroll() {
 
 function nextNews() {
 
-  heightW = document.documentElement.clientHeight;
-  heightEl = document.documentElement.scrollHeight;
-
   loaderId.style.display = "none";
   let createEl = document.createElement("div");
   createEl.classList.add("news");
